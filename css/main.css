@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    font-family: sans-serif;
+    color: black;
+    font-size: 16px;
+}
+
+.flex-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+q {
+    quotes: "\00ab" "\00bb";
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 1rem;
+}
+
+.contact-link {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.bg-python {
+    background-color:#3073A8;
+}
+
+.bg-vue {
+    background-color: #2FB281;
+}
+
+.bg-aio {
+    background-color: #2756AB;
+}
+
+.bg-habr {
+    background-color: #2F3B44;
+}
+
+.bg-tg {
+    background-color: #04A2E0;
+}
+
+.text-docker {
+    color: #2756AB;
+}
+
+.contacts {
+    font-size: 1.2rem;
+}
